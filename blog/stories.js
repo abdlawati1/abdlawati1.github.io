@@ -32,5 +32,20 @@
 // DO NOT RENAME THIS FILE.
 
 var cancerStories = [
+  {
+	"id": "test",
+		"date": "08/06/2022",
+		"title": "كانسر",
+		"type": "testis",
+		"image": "test.jpg",
+		"abstract": "yo wassup people",
+		"full": `
+			yo wassup everyone. POGGERZ
+      --- 
+      POGGERZ
+      ---
+      POGGERZ
+			`,
+	}
 
 ];
