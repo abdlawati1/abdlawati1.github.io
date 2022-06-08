@@ -17,7 +17,7 @@ $(document).ready(function(){
   for(var i = 0; i < cancerStories.length; i++){
     if(cancerStories[i]["id"] == showCancer){
       $("#jumbotron-story").css("background-image", "linear-gradient(to left, rgba(110, 43, 88, 0.95) 50%, rgba(110, 43, 88, 0.5)), url(images/" + cancerStories[i]["image"] + ")");
-      $("#cancer-title").text(cancerStories[i]["title"] + " · " + cancerStories[i]["title"]);
+      $("#cancer-title").text(cancerStories[i]["title"] + " · " + cancerStories[i]["date"]);
       $("#cancer-abstract").text(cancerStories[i]["abstract"]);
       $("#cancer-full").prepend("<p>" + cancerStories[i]["full"].replaceAll("---", "</p><p>") + "</p>");
     }
