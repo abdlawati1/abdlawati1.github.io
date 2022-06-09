@@ -32,35 +32,51 @@
 // DO NOT RENAME THIS FILE.
 
 var cancerStories = [
-  {
-	"id": "test",
-		"date": "08/06/2022",
-		"title": "كانسر",
-		"type": "testis",
-		"image": "test.jpg",
-		"abstract": "yo wassup people",
-		"full": `
-			yo wassup everyone. POGGERZ
-      --- 
-      POGGERZ
-      ---
-      POGGERZ
-			`,
-	}, 
+
 	{
-	"id": "test1",
-		"date": "05/06/2000",
-		"title": "مجاهد",
-		"type": "colorectal",
-		"image": "test.jpg",
-		"abstract": "abdlawati1 is a legend",
-		"full": `
-			He is built different
-      --- 
-      POGGERZ
-      ---
-      POGGERZ
-			`,
+	"id": "1",
+	"date": "01/06/2022",
+	"title": "This is a title 1",
+	"type": "melanoma",
+	"image": "1.jpg",
+	"abstract": "This is a test abstract 1.",
+	"full": `
+		Paragraph 1
+		---
+		Paragraph 2
+		---
+		Paragraph 3
+		`,
+	},
+	{
+	"id": "2",
+	"date": "05/06/2022",
+	"title": "This is a title 2",
+	"type": "blood",
+	"image": "2.jpg",
+	"abstract": "This is a test abstract 2.",
+	"full": `
+		Paragraph 1
+		---
+		Paragraph 2
+		---
+		Paragraph 3
+		`,
+	},
+	{
+	"id": "3",
+	"date": "09/06/2022",
+	"title": "This is a title 3",
+	"type": "cns",
+	"image": "3.jpg",
+	"abstract": "This is a test abstract 3.",
+	"full": `
+		Paragraph 1
+		---
+		Paragraph 2
+		---
+		Paragraph 3
+		`,
 	}
 
 ];
