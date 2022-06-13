@@ -34,7 +34,7 @@
 var cancerStories = [
 
 	{
-	"id": "1",
+	"id": "#1",
 	"date": "13/06/2022",
 	"title": "ربَّ ضارّة نافعة",
 	"type": "breast",
